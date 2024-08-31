@@ -1,0 +1,278 @@
+.image {
+    transition: 1s ;
+}
+
+.image:hover {
+    transform: scale(1.05);
+    transition: 1s
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    font-size: 20;
+   
+    width: 100%;
+}
+
+nav a {
+
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.homeimage {
+    width: 1500px;
+    height: 500px;
+    position: relative;
+    opacity: 100%
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    padding: 100px;
+
+}
+
+@keyframes slideinright {
+    from {
+        transform: translateX(200px);
+    }
+
+    to {
+        transform: translateX();
+
+
+    }
+}
+
+
+
+.about_text {
+
+    border: 3px;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    width: 40%;
+    right: 5%;
+
+
+    animation-name: slideinright;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+}
+
+@keyframes slideinleft {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX();
+
+
+    }
+}
+
+
+
+
+
+.about-image {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 35%;
+    position: relative;
+    left: 5%;
+    animation-name: slideinleft;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+}
+
+
+
+.food-text {
+
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+
+}
+
+.traveling-text {
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    width: 50%;
+}
+
+.Festival-text {
+    position: relative;
+    font-size: 20px;
+    padding: 5px;
+    width: 50%;
+
+}
+
+
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 5px;
+
+}
+
+
+
+.flex-container-wrap>div {
+    width: 200px;
+    margin: 10px;
+
+
+}
+
+
+
+
+.image>img {
+    width: 190px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+
+.trav-flex-container {
+    display: flex;
+    padding: 100px;
+
+}
+
+.trav-flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 5px;
+
+
+}
+
+.trav-flex-container-wrap>div {
+    width: 200px;
+    margin: 10px;
+
+
+}
+
+
+.button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    width: 70%;
+
+
+}
+
+input[type=text],
+input[type=password] {
+
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    position: relative;
+    width: 70%;
+}
+
+.flex-form {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-flex {
+    width: 50%;
+
+
+}
+
+.form-image>img {
+
+    width: 50%;
+    position: relative;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+.container:hover .overlay {
+    width: 100%;
+    bottom: 0;
+}
+
+.home_title {
+    color: black;
+    font-size: 70px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+
+
+}
+
+
+.food-button {
+    padding: 10px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
